@@ -11,6 +11,8 @@ h2
     font-size: 3em;
     color: white;
     margin-top: 25vh;
+
+    text-shadow: 2px 2px 0.75px red, 2.5px 2.5px 0.1px white;
 }
 
 .conteneurH2
@@ -42,5 +44,5 @@ input
 
 textarea
 {
-    box-shadow: #D81F26 3px 3px;
+    box-shadow: 3px 3px 1.5px  red;
 }
