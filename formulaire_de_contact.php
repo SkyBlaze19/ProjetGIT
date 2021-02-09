@@ -4,7 +4,7 @@ if(isset($_POST['mailform']))
 	if(!empty($_POST['nom']) AND !empty($_POST['mail']) AND !empty($_POST['message']))
 	{
 		$header="MIME-Version: 1.0\r\n";
-		$header.='From:"PrimFX.com"<support@primfx.com>'."\n";
+		$header.='From:"NetView.com"<support@netview.com>'."\n";
 		$header.='Content-Type:text/html; charset="uft-8"'."\n";
 		$header.='Content-Transfer-Encoding: 8bit';
 
