@@ -15,22 +15,6 @@ h2
     text-shadow: 2px 2px 0.75px red, 2.5px 2.5px 0.1px white;
 }
 
-.conteneurH2
-{
-    background-color: violet;
-    position: relative;
-}
-
-.conteneurH2 .conteneurOmbre
-{
-    position: relative;
-    top: -30%;
-    left: 5%;
-
-    background-color: rgb(64, 224, 64);
-}
-
-
 
 form
 {
