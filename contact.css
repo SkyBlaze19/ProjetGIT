@@ -1,0 +1,34 @@
+html, body
+{
+    margin: 0 auto;
+    padding: 0 auto;
+    background-color: black;
+}
+
+h2
+{
+    text-align: center;
+    font-size: 3em;
+    color: white;
+    margin-top: 25vh;
+}
+
+#ombreH2
+{
+    position: relative;
+}
+
+form
+{
+    margin-left: 45vw;
+}
+
+input
+{
+    border-radius: 10px;
+}
+
+textarea
+{
+    box-shadow: #D81F26 3px 3px;
+}

@@ -32,10 +32,12 @@ if(isset($_POST['mailform']))
 ?>
 <html>
 	<head>
-		<meta charset="utf-8" />
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" href="contact.css"/>
 	</head>
 	<body>
-		<h2>Formulaire de contact !</h2>
+		<h2>Laissez nous un message !</h2>
+		<h2 id="ombreH2">Laissez nous un message !</h2>
 		<form method="POST" action="">
 			<input type="text" name="nom" placeholder="Votre nom" value="<?php if(isset($_POST['nom'])) { echo $_POST['nom']; } ?>" /><br /><br />
 			<input type="email" name="mail" placeholder="Votre email" value="<?php if(isset($_POST['mail'])) { echo $_POST['mail']; } ?>" /><br /><br />
