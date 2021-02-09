@@ -13,10 +13,22 @@ h2
     margin-top: 25vh;
 }
 
-#ombreH2
+.conteneurH2
 {
+    background-color: violet;
     position: relative;
 }
+
+.conteneurH2 .conteneurOmbre
+{
+    position: relative;
+    top: -30%;
+    left: 5%;
+
+    background-color: rgb(64, 224, 64);
+}
+
+
 
 form
 {
