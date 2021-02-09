@@ -12,20 +12,16 @@ if(isset($_POST['mailform']))
 		<html>
 			<body>
 				<div align="center">
-					<img src="http://www.primfx.com/mailing/banniere.png"/>
-					<br />
-					<u>Nom de l\'expéditeur :</u>'.$_POST['nom'].'<br />
-					<u>Mail de l\'expéditeur :</u>'.$_POST['mail'].'<br />
+					<u>Nom de l\'expéditeur : </u>'.$_POST['nom'].'<br />
+					<u>Mail de l\'expéditeur : </u>'.$_POST['mail'].'<br />
 					<br />
 					'.nl2br($_POST['message']).'
-					<br />
-					<img src="http://www.primfx.com/mailing/separation.png"/>
 				</div>
 			</body>
 		</html>
 		';
 
-		mail("primfxtuto@gmail.com", "CONTACT - Monsite.com", $message, $header);
+		mail("theolemaigre@hotmail.fr", "CONTACT - NetView.com", $message, $header);
 		$msg="Votre message a bien été envoyé !";
 	}
 	else
