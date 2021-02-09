@@ -30,10 +30,12 @@ if(isset($_POST['mailform']))
 	}
 }
 ?>
+
 <html>
 	<head>
 		<meta charset="utf-8"/>
 		<link rel="stylesheet" href="contact.css"/>
+		<title>NetView - Contact</title>
 	</head>
 	<body>
 		<h2>Laissez nous un message !</h2>
@@ -47,7 +49,7 @@ if(isset($_POST['mailform']))
 		<?php
 		if(isset($msg))
 		{
-			echo $msg;
+			echo '<span class="messagePHP">'.$msg.'</span>';
 		}
 		?>
 	</body>
