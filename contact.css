@@ -54,7 +54,7 @@ footer
     bottom: 0%;
 
     justify-content: space-around;
-    align-items: center;
+    align-items: flex-start;
     color: white;
 }
 
@@ -77,4 +77,7 @@ footer #navigation a, footer #navigation li
     text-decoration: none;
 }
 
-/*footer #navigation a*/
+/*footer #navigation a
+{
+
+}*/
