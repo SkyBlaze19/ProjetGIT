@@ -19,3 +19,48 @@ p{
 img{
     width: 45%;
 }
+
+
+
+
+footer
+{
+    display: flex !important;
+    width: 100vw;
+    justify-content: space-around;
+    align-items: flex-start;
+    color: white;
+
+    background-color: rgba(255, 2, 2, 0.39);
+}
+
+footer h3
+{
+    color: white;
+    margin-bottom: 2vh;
+    text-shadow: 2px 2px 0.75px black, 2.5px 2.5px white;
+}
+
+footer p 
+{
+    line-height: 2vh;
+}
+
+footer #navigation a, footer #navigation li
+{
+    list-style: none;
+    color: white;
+    text-decoration: none;
+}
+
+footer #navigation a:hover
+{
+ background-color: red;
+ color: black;
+ border-radius: 5px;
+
+}
+
+#equipe {
+    text-align: left;
+}
