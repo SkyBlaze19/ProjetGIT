@@ -89,7 +89,7 @@ if(isset($_POST['mailform']))
 		</div>
 
 		<footer>
-			<div>
+			<div id="coordonnees">
 				<h3>Coordonnées</h3>
 				<p>26 cours Gambetta</p>
 				<p>76 500 Elbeuf</p>
@@ -97,7 +97,7 @@ if(isset($_POST['mailform']))
 				<p>netview-contact@gmail.com</p>
 			</div>
 				
-			<div>
+			<div id="navigation">
 				<h3>Navigation</h3>
 
 				<ul>
@@ -116,7 +116,7 @@ if(isset($_POST['mailform']))
 
 			</div>
 
-			<div>
+			<div id="equipe">
 				<h3>L'équipe</h3>
 
 				<ul>
