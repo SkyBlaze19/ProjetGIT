@@ -64,3 +64,7 @@ footer #navigation a:hover
 #equipe {
     text-align: left;
 }
+
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+    color: rgb(238, 0, 0) !important;
+}
