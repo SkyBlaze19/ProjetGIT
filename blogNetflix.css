@@ -3,3 +3,28 @@ html, body
     margin: 0 auto;
     padding: 0 auto;
 }
+
+
+main{
+    width: 90%;
+    margin: auto;
+}
+
+
+
+
+#serie{
+    border: solid black;
+}
+
+#film{
+    border: solid black;
+}
+
+#anime{
+    border: solid black;
+}
+
+#documentaire{
+    border: solid black;
+}
