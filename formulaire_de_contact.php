@@ -54,17 +54,17 @@ if(isset($_POST['mailform']))
 			<div class="collapse navbar-collapse" id="navbarNavDropdown">
 				<ul class="navbar-nav">
 					<li class="nav-item">
-						<a class="nav-link" href="#">Accueil <span class="sr-only">(current)</span></a>
+						<a class="nav-link" href="index.html">Accueil <span class="sr-only">(current)</span></a>
 					</li>
 					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						<a class="nav-link dropdown-toggle" href="review.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 							Reviews
 						</a>
 						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-							<a class="dropdown-item" href="#serie">séries</a>
-							<a class="dropdown-item" href="#film">films</a>
-							<a class="dropdown-item" href="#anime">animes</a>
-							<a class="dropdown-item" href="#documentaire">documentaires</a>
+							<a class="dropdown-item" href="review.html">séries</a>
+							<a class="dropdown-item" href="review.html">films</a>
+							<a class="dropdown-item" href="review.html">animes</a>
+							<a class="dropdown-item" href="review.html">documentaires</a>
 						</div>
 					</li>
 					<li class="nav-item active">
