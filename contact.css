@@ -77,7 +77,8 @@ footer #navigation a, footer #navigation li
     text-decoration: none;
 }
 
-/*footer #navigation a
+footer #navigation a:hover
 {
-
-}*/
+ background-color: red;
+ border-radius: 5px;
+}
