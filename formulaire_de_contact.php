@@ -133,7 +133,7 @@ if(isset($_POST['mailform']))
 					</li>
 
 					<li>
-						Riujy-Dono ~ Vasco Couture
+						Ryuji-Dono ~ Vasco Couture
 					</li>
 				</ul>
 
