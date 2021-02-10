@@ -6,6 +6,17 @@ html, body
 
 }
 
+@font-face 
+{
+    font-family: "NetflixFont";
+    src: url("/fonts/Netflix Font.ttf") format("ttf");      
+}
+
+h1 
+{
+    font-family: "NetflixFont" !important;
+}
+
 
 main{
     margin: auto;
