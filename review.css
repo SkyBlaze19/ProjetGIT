@@ -2,4 +2,11 @@ html, body
 {
     margin: 0 auto;
     padding: 0 auto;
+    background-color: black ;
+    color:white;
+    text-align: center;
+}
+
+img{
+    width: 20%;
 }
