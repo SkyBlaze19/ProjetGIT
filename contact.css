@@ -69,3 +69,12 @@ footer p
 {
     line-height: 2vh;
 }
+
+footer #navigation a, footer #navigation li
+{
+    list-style: none;
+    color: white;
+    text-decoration: none;
+}
+
+/*footer #navigation a*/
