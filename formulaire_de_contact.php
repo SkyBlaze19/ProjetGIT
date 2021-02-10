@@ -53,7 +53,7 @@ if(isset($_POST['mailform']))
 			</button>
 			<div class="collapse navbar-collapse" id="navbarNavDropdown">
 				<ul class="navbar-nav">
-					<li class="nav-item active">
+					<li class="nav-item">
 						<a class="nav-link" href="#">Accueil <span class="sr-only">(current)</span></a>
 					</li>
 					<li class="nav-item dropdown">
@@ -67,7 +67,7 @@ if(isset($_POST['mailform']))
 							<a class="dropdown-item" href="#documentaire">documentaires</a>
 						</div>
 					</li>
-					<li class="nav-item">
+					<li class="nav-item active">
 						<a class="nav-link" href="formulaire_de_contact.php">Contacts</a>
 					</li>
 				</ul>
