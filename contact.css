@@ -82,5 +82,6 @@ footer #navigation a, footer #navigation li
 footer #navigation a:hover
 {
  background-color: red;
+ color: black;
  border-radius: 5px;
 }
