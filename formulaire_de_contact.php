@@ -77,14 +77,70 @@ if(isset($_POST['mailform']))
 
 	<body>
 		
-		<h2>Laissez nous un message !</h2>
+		<div id="contact">
+			<h2>Laissez nous un message !</h2>
 		
-		<form method="POST" action="">
-			<input type="text" name="nom" placeholder="Votre nom" value="<?php if(isset($_POST['nom'])) { echo $_POST['nom']; } ?>" /><br /><br />
-			<input type="email" name="mail" placeholder="Votre email" value="<?php if(isset($_POST['mail'])) { echo $_POST['mail']; } ?>" /><br /><br />
-			<textarea name="message" placeholder="Votre message"><?php if(isset($_POST['message'])) { echo $_POST['message']; } ?></textarea><br /><br />
-			<input type="submit" value="Envoyer !" name="mailform"/>
-		</form>
+			<form method="POST" action="">
+				<input type="text" name="nom" placeholder="Votre nom" value="<?php if(isset($_POST['nom'])) { echo $_POST['nom']; } ?>" /><br /><br />
+				<input type="email" name="mail" placeholder="Votre email" value="<?php if(isset($_POST['mail'])) { echo $_POST['mail']; } ?>" /><br /><br />
+				<textarea name="message" placeholder="Votre message"><?php if(isset($_POST['message'])) { echo $_POST['message']; } ?></textarea><br /><br />
+				<input type="submit" value="Envoyer !" name="mailform"/>
+			</form>
+		</div>
+
+		<footer>
+			<div id="coordonnees">
+				<h3>Coordonnées</h3>
+				<p>26 cours Gambetta</p>
+				<p>76 500 Elbeuf</p>
+				<p>02 22 47 85 96</p>
+				<p>netview-contact@gmail.com</p>
+			</div>
+				
+			<div id="navigation">
+				<h3>Navigation</h3>
+
+				<ul>
+					<li>
+						<a href="index.html">Accueil</a>
+					</li>
+
+					<li>
+						<a href="review.html">Review</a>
+					</li>
+
+					<li>
+						<a href="contact.php">Contact</a>
+					</li>
+				</ul>
+
+			</div>
+
+			<div id="equipe">
+				<h3>L'équipe</h3>
+
+				<ul>
+					<li>
+						Wiizya-GitHub ~ Coline Lefebvre
+					</li>
+
+					<li>
+						SkyBlaze19 ~ Lemaigre Théo
+					</li>
+
+					<li>
+						redhoodfr ~ Hugo Houssin
+					</li>
+
+					<li>
+						Riujy-Dono ~ Vasco Couture
+					</li>
+				</ul>
+
+			</div>
+
+		</footer>
+
 		<?php
 		if(isset($msg))
 		{

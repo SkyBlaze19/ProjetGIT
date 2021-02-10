@@ -3,18 +3,24 @@ html, body
     margin: 0 auto;
     padding: 0 auto;
     background-color: black !important;
+    height: 100vh;
 }
 
-h2
+#contact h2
 {
     text-align: center;
     font-size: 3em;
     color: white;
-    margin-top: 25vh;
+
+    margin-bottom: 5vh;
 
     text-shadow: 2px 2px 0.75px red, 2.5px 2.5px 0.1px white;
 }
 
+#contact
+{
+    margin-top: 25vh;
+}
 
 form
 {
@@ -36,4 +42,25 @@ textarea
     text-align: center;
     margin-left: 45vw;
     color: white;
+}
+
+footer
+{
+    display: flex !important;
+
+    width: 100vw;
+
+    position: absolute;
+    bottom: 0%;
+
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+footer h3
+{
+    color: white;
+    margin-bottom: 2vh;
+    text-shadow: 2px 2px 0.75px black, 2.5px 2.5px white;
 }
