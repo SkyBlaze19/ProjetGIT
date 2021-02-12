@@ -6,4 +6,4 @@ redhoodfr ~ Hugo Houssin
 Riujy-Dono ~ Vasco Couture
 
 <strong>Description:</strong>
-C'est un site de review de film/série Netflix doté d'un index, du page review et dun formulaire contact.
+C'est un site de review de film/série Netflix doté d'un index, du page review et d'un formulaire contact.
